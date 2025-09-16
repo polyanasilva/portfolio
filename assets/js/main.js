@@ -30,6 +30,6 @@ if (isChecked && screenWidth <= 700) {
 }
 
 var date = new Date;
-document.getElementById('date').innerHTML = "&copy; " + date.getFullYear() + " - Artur Pedro";
+document.getElementById('date').innerHTML = "&copy; " + date.getFullYear() + " - Polyana Silva";
 document.getElementById('toggle-menu').addEventListener('change', toggleVisibility);
 window.addEventListener('resize', toggleVisibility); 
