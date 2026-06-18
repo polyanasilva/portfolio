@@ -1,6 +1,6 @@
 // Typed.js initialization
 var typed = new Typed('#typed-text', {
-    strings: ['Bioinformatics student'],
+    strings: ['Estudante de Bioinformática'],
     typeSpeed: 50,
     backSpeed: 30,
     loop: true
@@ -44,7 +44,7 @@ updateThemeIcon(savedTheme);
 themeToggle.addEventListener('click', () => {
     const currentTheme = root.getAttribute('data-theme');
     const newTheme = currentTheme === 'light' ? 'dark' : 'light';
-    
+
     root.setAttribute('data-theme', newTheme);
     localStorage.setItem('theme', newTheme);
     updateThemeIcon(newTheme);

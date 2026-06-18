@@ -114,6 +114,12 @@ body {
     transform: translateY(-3px);
 }
 
+.social-links .social-img {
+    height: 1.7rem;
+    width: auto;
+    display: inline-block;
+}
+
 /* Sections */
 .section-padding {
     padding: 6rem 0;
